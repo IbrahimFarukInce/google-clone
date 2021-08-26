@@ -1,7 +1,8 @@
 .header {
   list-style-type: none;
-  margin: 10px;
+  margin: 10px ;
   overflow: hidden;
+  margin-top: -50px;
   margin-right: 16px;
   font-family: arial,sans-serif;
   font-size: 13px;
@@ -9,6 +10,19 @@
   flex-direction: row-reverse;
 
 }
+.header-a {
+  list-style-type: none;
+  margin: 10px ;
+  overflow: hidden;
+  
+  margin-right: 16px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+
+}
+
 
 
 .headerli a {
@@ -24,6 +38,7 @@
   text-decoration: underline;
 }
 
+
 .buttons {
   text-align: center;
   font-family: 14px arial, sans-serif;
@@ -33,6 +48,7 @@
   font-size: 0px;
   border-radius: 999999px;
 }
+
 
 
 .container {
